@@ -1,10 +1,7 @@
 from requests import get
-from pprint import PrettyPrinter
 
 BASE_URL = "https://free.currconv.com/"
 API_KEY = "da7c6bf30119ea0eea06"
-
-printer = PrettyPrinter()
 
 def get_currencies():
     end_point = f"api/v7/currencies?apiKey={API_KEY}"
